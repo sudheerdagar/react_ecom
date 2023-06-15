@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+  functions = "build/functions"
+  # Add the following line to copy the _redirects file
+  copyFiles = "_redirects"
